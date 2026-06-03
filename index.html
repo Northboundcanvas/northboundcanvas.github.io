@@ -41,7 +41,23 @@
             text-align: center;
             padding: 10px;
         }
+        .about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+        .about-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
         nav a {     
     color: white;
     text-decoration: none;
@@ -131,7 +147,14 @@ font-family: 'Roboto', sans-serif;
 </nav>
 
 <section id="about">
-    <h2>About Us</h2>
+    <div class="about-container">
+
+        <img src="owner-photo.jpg"
+             alt="Owner of Northbound Canvas & Upholstery"
+             class="about-photo">
+
+        <div class="about-text">
+            <h2>About Us</h2>
     <p>
 Northbound Canvas & Upholstery is a Sudbury-based upholstery and canvas business, specializing in marine upholstery, custom fit equipment and recreational vehicle covers,
         custom fabrication, repair and much more. we take pride in providing quality, long lasting repairs, and solutions to withstand the rugged Northern Ontario Weather.
